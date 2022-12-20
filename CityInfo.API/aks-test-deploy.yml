@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: build-agents123
+spec:
+  containers:
+    - name: acr-agent-test
+      image: wtwcrb2.azurecr.io/devops/linuxagent:20221004
